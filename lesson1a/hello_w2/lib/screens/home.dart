@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:io';
 
 class Home extends StatelessWidget {
   @override
@@ -21,7 +20,6 @@ class Home extends StatelessWidget {
 
     int hour = now.hour;
     int min = now.minute;
-    int sec = now.second;
     if (hour < 12) {
       hello = "Good Morning";
     } else if (hour < 18) {
