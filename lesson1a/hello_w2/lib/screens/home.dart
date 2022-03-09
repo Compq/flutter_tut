@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
     int hour = now.hour;
     int min = now.minute;
     if (hour < 12) {
-      hello = "Good Morning";
+      hello = "Good Morning !";
     } else if (hour < 18) {
       hello = "Good Afternoon";
     } else {
